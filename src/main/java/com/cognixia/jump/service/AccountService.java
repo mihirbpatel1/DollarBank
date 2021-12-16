@@ -57,20 +57,7 @@ public class AccountService {
         currentAccount = null;
     }
 
-    public boolean changePassword(String oldPassword, String newPassword) {
-        // make sure currentAccount is not null
-        if(currentAccount == null) {
-            return false;
-        }
-        // make sure the old password matches
-        if(currentAccount.getPassword().equals(oldPassword)) {
-            currentAccount.setPassword(newPassword);
-            return true;
-        }
-        // the old password doesn't match
-        return false;
-    }
-
+   
  
     public Account addAccount(String name, String email, String address, String password, double balance) {
         int id = randomId();

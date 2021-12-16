@@ -16,7 +16,6 @@
                <a href="/deposit">Make a Deposit</a>
                <a class="active" href="/withdrawl">Make a Withdrawl</a>
                <a href="/transfer">Transfer Funds</a>
-               <a href="/change-password">Change Your Password</a>
                <a href="/logout">Logout</a>
         
         	</div>
